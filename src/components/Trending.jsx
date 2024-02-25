@@ -3,8 +3,8 @@ import SearchBar from "./SearchBar"
 function Trending() {
   return (
     <>
-      <div>Trending</div>
       <SearchBar/>
+      <div>Trending</div>
     </>
   )
 }

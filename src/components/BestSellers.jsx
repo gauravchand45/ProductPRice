@@ -4,8 +4,8 @@ import SearchBar from "./SearchBar"
 function BestSellers() {
   return (
     <>
-      <div>BestSellers</div>
       <SearchBar/>
+      <div>BestSellers</div>
     </>
     
   )
