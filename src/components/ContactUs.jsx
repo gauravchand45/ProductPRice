@@ -1,5 +1,5 @@
 import { FaUser, FaEnvelope, FaComment } from 'react-icons/fa'; 
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './ContactUsPage.css'
 
 function ContactUs() {
@@ -26,9 +26,6 @@ function ContactUs() {
   };
   return (
     <div className="contact-us-container">
-      <a href="/" className="logo-link">
-      <img src="/price.png" alt="Logo" className="logo" style={{ width: '150px', height: 'auto' }} />
-      </a>
       <h2 className="contact-us-heading">Contact Us</h2>
       <div className="contact-form-container">
         <form onSubmit={handleSubmit} className="contact-form">
