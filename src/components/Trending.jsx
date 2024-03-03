@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import SearchBar from "./SearchBar"
 
 function Trending() {
@@ -5,6 +6,7 @@ function Trending() {
     <>
       <SearchBar/>
       <div>Trending</div>
+      <Footer/>
     </>
   )
 }

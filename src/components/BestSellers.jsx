@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import SearchBar from "./SearchBar"
 
 
@@ -6,6 +7,7 @@ function BestSellers() {
     <>
       <SearchBar/>
       <div>BestSellers</div>
+      <Footer/>
     </>
     
   )

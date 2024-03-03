@@ -7,11 +7,11 @@ function Navbar() {
         
         <div className='ml-16 '>
             <Link to="/">
-                <img className='w-40 h-12 rounded-md' src={logo} alt="logo" />
+                <img className='w-40 h-12 rounded-3xl' src={logo} alt="logo" />
             </Link>
         </div>
 
-        <div className='mr-32 border-[1px] border-black p-3 rounded-md w-[900px] flex justify-center items-center'>
+        <div className='mr-32 border-[1px] border-black p-3 rounded-3xl w-[900px] flex justify-center items-center'>
             <ul className='flex gap-16'>
                 <li className='text-base w-28'>
                     <NavLink to="/" className={({isActive})=>`text-gray-600 ${isActive?"text-orange-700":"text-gray-700"} w-8`}>

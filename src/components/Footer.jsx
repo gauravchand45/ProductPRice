@@ -8,7 +8,7 @@ function Footer() {
             <div className='flex justify-around items-center border-t border-gray-300 p-8'>
                 <div>
                     <Link to="/">
-                        <img className="w-40 h-12 rounded-md" src={logo} alt="" />
+                        <img className="w-40 h-[50px] rounded-3xl" src={logo} alt="" />
                     </Link>
 
                 </div>
