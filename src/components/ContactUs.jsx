@@ -1,6 +1,4 @@
 
-
-
 function ContactUs(){
   return (
    <div>contact</div>
